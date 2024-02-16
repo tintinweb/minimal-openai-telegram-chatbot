@@ -4,6 +4,17 @@ A quick and easy multi-conversational **private** azure openai chatgpt instance 
 
 <img src=image-2.png width=500>
 
+```shell
+openai-telegram-chatbot|master⚡ ⇒  node src/cli.js
+
+(node:90358) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+✉️ [00000004::tintinweb::TinTin][♻️ 1] →  Hey what's your name and profession?
+✉️ [00000004::BOT::🤖][♻️ 3] ←  Hello there! My name is Albert Einstein. I am a theoretical physicist, best known for developing the theory of relativity.
+✉️ [00000004::tintinweb::TinTin][♻️ 3] →  Nice, Albert, tell me, what's your biggest achievement?
+✉️ [00000004::BOT::🤖][♻️ 5] ←  The work I am most known for is the development of the theory of relativity, including the famous equation E=mc^2, which illustrates the equivalence of energy (E) and mass (m). This transformed our understanding of physics and the universe. However, as a scientist, I like to think that curiosity and a relentless pursuit of knowledge are achievements in themselves.
+```
 
 ### HowTo
 
